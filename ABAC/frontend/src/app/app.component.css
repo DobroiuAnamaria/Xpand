@@ -1,0 +1,61 @@
+body {
+  border: none;
+  margin: 0px;
+}
+
+nav {
+  height: 80px;
+  padding-top: 50px;
+  text-align: center;
+  background-color: brown;
+  color: white;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.planet-form {
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  padding: 20px;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea.form-control {
+  height: 150px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+}

@@ -1,0 +1,18 @@
+<div class="planet-card" (click)="onClick($event)">
+  <div class="image-container">
+    <img [src]="image" alt="Planet Image" />
+    <div class="planet-name">{{ planet?.name }}</div>
+  </div>
+  <div class="content-container">
+    <div class="description">{{ description }}</div>
+    <div class="captain">
+      <strong>by captain: </strong>{{ planet?.team?.captain?.name }}
+    </div>
+    <div class="robots"><strong>Robots: </strong>{{ robots }}</div>
+  </div>
+  <div class="status-container">
+    <div class="status" [ngClass]="getStatusColorClass()">
+      {{ status }}
+    </div>
+  </div>
+</div>
